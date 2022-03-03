@@ -3023,6 +3023,7 @@ footer .widget .colla-apps>li a {
 .followers {
     max-height: 260px;
     position: relative;
+    overflow: hidden !important;
 }
 
 .followers>li figure {
@@ -4784,9 +4785,13 @@ canvas {
 }
 
 .mh-head {
-    background: #4bb5ef;
+    /* background: #4bb5ef; */
     color: #fff;
     height: auto;
+}
+
+.mh-head {
+    background: #34465d !important;
 }
 
 .mh-text {
@@ -5317,6 +5322,7 @@ canvas {
 
 .fixed-sidebar .ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y {
     background-color: transparent !important;
+    overflow: hidden;
 }
 
 .chat-friendz .chat-box {
