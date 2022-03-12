@@ -8204,7 +8204,7 @@ input[type="checkbox"]:checked+label {
     cursor: pointer;
     float: right;
     line-height: initial;
-    margin-top: 4px;
+    /* margin-top: 4px; */
     position: relative;
 }
 
